@@ -5,6 +5,7 @@ import ReactDOM from "react-dom";
 import './index.css';
 
 import {books} from './books';
+//import with default
 import Book from './Book';
 
 function Booklist(){
@@ -18,7 +19,5 @@ function Booklist(){
    </section>
     );
 }
-
-
 
 ReactDOM.render(<Booklist/>,document.getElementById('root'));
